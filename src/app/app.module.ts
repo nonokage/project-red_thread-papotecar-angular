@@ -7,6 +7,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HeaderFormComponent } from './header-form/header-form.component';
 import { FooterComponent } from './footer/footer.component';
 import { ModalConnexionComponent } from './modal-connexion/modal-connexion.component';
+import { InscriptionComponent } from './inscription/inscription.component';
+import { CardTripComponent } from './card-trip/card-trip.component';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { ModalConnexionComponent } from './modal-connexion/modal-connexion.compo
     NavbarComponent,
     HeaderFormComponent,
     FooterComponent,
-    ModalConnexionComponent
+    ModalConnexionComponent,
+    InscriptionComponent,
+    CardTripComponent
   ],
   imports: [
     BrowserModule
